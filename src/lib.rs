@@ -9,6 +9,8 @@ use std::str::FromStr;
 
 pub mod errors;
 pub mod pool;
+#[cfg(feature = "cli")]
+pub mod subg;
 mod subspace;
 mod util;
 
